@@ -1,0 +1,319 @@
+body {
+    background-color: #d9bee029;
+}
+
+.navbar {
+    height: 87.19px;
+    width: 1668px;
+}
+
+.zoomitlogo {
+    width: 80px;
+    height: 65px;
+    margin-left: 10px;
+}
+
+#search_icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 555px;
+}
+
+.navbar_search {
+    background-color: var(--whiteColor);
+    border-radius: 0;
+    height: 50px;
+    width: 400px;
+    line-height: 50px;
+    font-size: 17px;
+    margin: 0;
+    border: none;
+    padding: 0 25px;
+    color: var(--bodyColor);
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 600px;
+    position: absolute;
+    border-radius: 10px;
+
+}
+
+#navbar_main {
+    color: rebeccapurple;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 22px;
+}
+
+#navbar_main:hover {
+    color: purple;
+    transition: 0.15s;
+}
+
+#navbar_categories {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 220px;
+    margin-top: -48px;
+    position: absolute;
+    color: rebeccapurple;
+
+}
+
+#navbar_categories:hover {
+    color: purple;
+    transition: 0.15s;
+}
+
+#navbar_stages {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 300px;
+    margin-top: 21px;
+    position: absolute;
+
+}
+
+#navbar_stages:hover {
+    color: purple;
+    transition: 0.15s;
+}
+
+
+#registration_button {
+    width: 200px;
+    height: 60px;
+    padding: 15px 35px;
+    text-align: center;
+    margin-left: 1200px;
+    margin-top: 8px;
+    position: absolute;
+    border-color: #fff;
+    background-color: rgb(126, 49, 204);
+    color: #fff;
+    border-radius: 10px;
+}
+
+#login_button {
+    width: 150px;
+    height: 60px;
+    padding: 15px 35px;
+    text-align: center;
+    margin-left: 1430px;
+    margin-top: 8px;
+    position: absolute;
+    border-color: #fff;
+    background-color: rgb(126, 49, 204);
+    color: #fff;
+    border-radius: 10px;
+}
+
+#body_h2 {
+    margin-top: 100px;
+    margin-left: 180px;
+    font-size: 35px;
+    color: #21225f;
+    display: block;
+}
+
+
+.card_div {
+    height: 260px;
+    width: 300px;
+    background-color: #d7bbdfed;
+    border-radius: 16px;
+   
+
+}
+
+.mainDiv {
+    display:block, grid;
+    justify-content: space-evenly;
+    
+
+
+}
+
+#div_card_teacher_img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.card_div_h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #21225f;
+    font-family: var(--headerFonts);
+    margin-top: px;
+}
+
+.div_card_teacher_img_div {
+    width: 80px;
+    height: 80px;
+    aspect-ratio: auto 40 / 40;
+    padding: 7px 7px;
+    background-color: #bcd9e4;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px; 
+  */
+
+#opennav_content {
+    top: 100px;
+    height: 100%;
+    background-color: #fff;
+    border: 2px solid purple;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px inset rgba(128, 0, 128, 0.651);
+    width: 250px;
+    position: fixed;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-left: -300px;
+    display: block;
+}
+
+#categories_logo {
+    margin-top: 8px;
+    width: 40px;
+    height: 20px;
+}
+
+.openNav_content_buttons {
+
+    width: 250px;
+    height: 45px;
+    border: 3px solid rgba(255, 255, 255, 0.603);
+    border-radius: 10px;
+    background-color: #d7bbdfed;
+    color: #6c1ef28b;
+
+
+}
+
+.openNav_content_buttons:hover {
+    background-color: purple;
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0.545);
+
+}
+
+.openNav_content_buttons_p {
+    margin-top: 5px;
+
+    font-size: 17px;
+}
+
+#opennav_content_close_btn {
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 190px;
+    position: absolute;
+}
+
+#registration_page {
+    display: none;
+}
+
+#registration_page_img {
+    width: 1800px;
+    height: 712px;
+    margin-top: -20px;
+    margin-left: -70px;
+    filter: blur(2px);
+}
+#registration_page_second_div {
+   background-color:  #d7bbdfed;
+   width: 3000px;
+   height: 500px;
+   margin-top: -400px;
+   position: absolute;
+   display: grid;
+   place-items: center;
+   margin-left: -650px;
+}
+#registration_page_registration_h3 {
+    font-size: 36px;
+    position:absolute;
+   
+
+}
+#registration_page_main_registration_h2 {
+    position:absolute;
+}
+#registration_page_second_div_div {
+    height: 388.45px;
+    width: 1320px;
+    background-color: #fff;
+    display: grid;
+    justify-content:center;
+    
+   
+   
+}
+#registration_page_second_div_div button {
+      width: 198px;
+      height: 63.19px;
+      padding: 6px 10px;
+      font: inherit;
+      border-radius: 10px;
+      background-color: rgb(131, 35, 131);
+      color: #fff;
+      border-color: rgb(131, 35, 131);
+}
+#registration_page_second_div_div button:hover {
+    background-color: rgba(255, 255, 255, 0.791);
+    color: black;
+    transition: 0.5s;
+
+}
+
+#mainpageimg {
+    width: 1450px;
+    height: 500px;
+    filter: blur(2.5px);
+    margin-left: 250px;
+    
+}
+#footer {
+    width: 1680px;
+    height: 450px;
+    background-color: #21225f;
+    margin-left: -10px;
+    margin-top: 100px;
+}
+.footer_H3 {
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    margin-top: 150px;
+}
+
+#footer_aboutus {
+    margin-left: 700px;
+   
+}
+#footer_resources {
+    margin-left: 980px;
+}
+#footer_information {
+    margin-left: 1200px;
+}
